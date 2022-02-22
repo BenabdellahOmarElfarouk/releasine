@@ -3,7 +3,7 @@ from django.utils import timezone
 
 class AttributeValue(models.Model):
     Name = models.CharField(max_length=50)
-    Boolean = models.models.BooleanField()
+    Boolean = models.BooleanField()
     Date = models.DateField()
 
     def __str__(self):
